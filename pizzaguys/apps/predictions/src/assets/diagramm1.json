@@ -1,0 +1,20 @@
+[
+  {
+    "date": "01.01.2022",
+    "topic": "football",
+    "views": 100,
+    "timespend_in_sec": 1000
+  },
+  {
+    "date": "02.01.2022",
+    "topic": "football",
+    "views": 300,
+    "timespend_in_sec": 2000
+  },
+  {
+    "date": "03.01.2022",
+    "topic": "football",
+    "views": 240,
+    "timespend_in_sec": 8000
+  }
+]

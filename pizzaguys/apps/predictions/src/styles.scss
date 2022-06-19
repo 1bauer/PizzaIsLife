@@ -1,1 +1,17 @@
-/* You can add global styles to this file, and also import other style files */
+.title {
+  display: grid;
+  font-size: 20pt;
+  place-items: center;
+}
+
+.headline {
+  display: grid;
+
+  font-size: 14pt;
+  place-items: center;
+  padding-bottom: 30px;
+}
+
+span {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

@@ -1,13 +1,7 @@
-/*
- * * * * * * * * * * * * * * * * * * * * * * * * * * * *
- This is a starter component and can be deleted.
- * * * * * * * * * * * * * * * * * * * * * * * * * * * *
- Delete this file and get started with your project!
- * * * * * * * * * * * * * * * * * * * * * * * * * * * *
- */
-import React from 'react';
+import { useState, useEffect } from 'react';
 import ReactECharts from 'echarts-for-react'; // or var ReactECharts = require('echarts-for-react');
-export function NxWelcome({ title }: { title: string }) {
+
+export function Diagramm2() {
   const options = {
     color: ['#80FFA5', '#00DDFF', '#37A2FF', '#FF0087', '#FFBF00'],
     title: {
@@ -146,7 +140,24 @@ export function NxWelcome({ title }: { title: string }) {
     ],
   };
 
+  const [appState, setAppState] = useState({
+    loading: false,
+    repos: null,
+  });
+
+  useEffect(() => {
+    // setAppState({ loading: true });
+    const apiUrl = `assets/diagramm1.csv`;
+    fetch(apiUrl)
+      .then((res) => res.json())
+      .then((repos) => {
+        setAppState({ loading: false, repos: repos });
+      });
+  }, [setAppState]);
+
+  fetch('assets/diagramm1.csv').then();
+
   return <ReactECharts option={options} />;
 }
 
-export default NxWelcome;
+export default Diagramm2;
