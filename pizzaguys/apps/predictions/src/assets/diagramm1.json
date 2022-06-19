@@ -3,18 +3,90 @@
     "date": "01.01.2022",
     "topic": "football",
     "views": 100,
-    "timespend_in_sec": 1000
+    "timespend_in_sec": 649
   },
   {
     "date": "02.01.2022",
     "topic": "football",
     "views": 300,
-    "timespend_in_sec": 2000
+    "timespend_in_sec": 230
   },
   {
     "date": "03.01.2022",
     "topic": "football",
     "views": 240,
-    "timespend_in_sec": 8000
+    "timespend_in_sec": 402
+  },
+  {
+    "date": "04.01.2022",
+    "topic": "football",
+    "views": 2500,
+    "timespend_in_sec": 100
+  },
+  {
+    "date": "05.01.2022",
+    "topic": "football",
+    "views": 1240,
+    "timespend_in_sec": 1200
+  },
+  {
+    "date": "01.01.2022",
+    "topic": "handball",
+    "views": 400,
+    "timespend_in_sec": 300
+  },
+  {
+    "date": "02.01.2022",
+    "topic": "handball",
+    "views": 2200,
+    "timespend_in_sec": 700
+  },
+  {
+    "date": "03.01.2022",
+    "topic": "handball",
+    "views": 140,
+    "timespend_in_sec": 100
+  },
+  {
+    "date": "04.01.2022",
+    "topic": "handball",
+    "views": 1410,
+    "timespend_in_sec": 500
+  },
+  {
+    "date": "05.01.2022",
+    "topic": "handball",
+    "views": 1420,
+    "timespend_in_sec": 2300
+  },
+  {
+    "date": "01.01.2022",
+    "topic": "tennis",
+    "views": 400,
+    "timespend_in_sec": 100
+  },
+  {
+    "date": "02.01.2022",
+    "topic": "tennis",
+    "views": 2002,
+    "timespend_in_sec": 2200
+  },
+  {
+    "date": "03.01.2022",
+    "topic": "tennis",
+    "views": 1402,
+    "timespend_in_sec": 300
+  },
+  {
+    "date": "04.01.2022",
+    "topic": "tennis",
+    "views": 1402,
+    "timespend_in_sec": 2000
+  },
+  {
+    "date": "05.01.2022",
+    "topic": "tennis",
+    "views": 1410,
+    "timespend_in_sec": 800
   }
 ]
